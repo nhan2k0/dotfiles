@@ -3,7 +3,9 @@ my arch linux dotfiles using pywal for color scheme (coming soon)
 
 ## spicetify
 this scheme is designed to use with the "text" theme
-paste the lines below into the `color.ini` file inside the theme folder and apply it!
+
+paste the lines below into the `color.ini` file inside the theme folder and apply using `spicetify config color_scheme pywal`.
+> [!NOTE]
 > you will need xrdb for loading the generated xresources file!
 ```
 [pywal]
