@@ -1,0 +1,42 @@
+format = """
+[](#56af7c)\
+[   ](bg:#56af7c fg:#000000)\
+[](fg:#56af7c)\
+[](fg:#133c5b)\
+$directory\
+[](fg:#133c5b)\
+$git_branch\
+$git_status\
+$character"""
+
+[character]
+format = '  $symbol  '
+success_symbol = '[](bold green)'
+error_symbol = '[](bold red)'
+
+
+[directory]
+style = "fg:#000000 bg:#133c5b"
+format = "[ $path ]($style)"
+truncation_length = 4
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = ""
+"Downloads" = ""
+"Music" = ""
+"Pictures" = ""
+".config" = ""
+
+[git_branch]
+format = """
+[](fg:#2f786b)\
+[  $branch ](bg:#2f786b fg:#000000)\
+[](fg:#2f786b)\
+"""
+
+[git_status]
+format = """
+[ $all_status$ahead_behind ]()\
+"""
+

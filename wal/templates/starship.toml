@@ -1,0 +1,42 @@
+format = """
+[]({color5})\
+[   ](bg:{color5} fg:#000000)\
+[](fg:{color5})\
+[](fg:{color1})\
+$directory\
+[](fg:{color1})\
+$git_branch\
+$git_status\
+$character"""
+
+[character]
+format = '  $symbol  '
+success_symbol = '[](bold green)'
+error_symbol = '[](bold red)'
+
+
+[directory]
+style = "fg:#000000 bg:{color1}"
+format = "[ $path ]($style)"
+truncation_length = 4
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = ""
+"Downloads" = ""
+"Music" = ""
+"Pictures" = ""
+".config" = ""
+
+[git_branch]
+format = """
+[](fg:{color2})\
+[  $branch ](bg:{color2} fg:#000000)\
+[](fg:{color2})\
+"""
+
+[git_status]
+format = """
+[ $all_status$ahead_behind ]()\
+"""
+

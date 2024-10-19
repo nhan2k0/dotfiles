@@ -1,0 +1,6 @@
+@define-color cc-bg {background};
+@define-color text-color {foreground};
+@define-color noti-bg-darker {color8};
+@define-color slider {color1};
+@define-color noti-bg-hover {color8};
+@define-color noti-border-color {color5};
