@@ -19,6 +19,7 @@ this scheme is designed to use with the "text" theme, which you can get from [he
 paste the lines below into the `color.ini` file inside the theme folder and apply using `spicetify config color_scheme pywal`.
 > [!NOTE]
 > you will need xrdb for loading the generated xresources file!
+> 
 > plus, if you do not like having to play the music manually because the client restarts, enable devtools using `spicetify apply enable-devtools` and use the update command (a manual reload of the client is required but the stream should not be interrupted)
 ```
 [pywal]
