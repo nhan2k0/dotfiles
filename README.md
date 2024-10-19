@@ -1,5 +1,5 @@
 # dotfiles
-my arch linux dotfiles using pywal for color scheme (coming soon)
+my arch linux dotfiles using pywal for color scheme (coming soon?)
 
 ## how to install
 > [!NOTE]
@@ -7,12 +7,19 @@ my arch linux dotfiles using pywal for color scheme (coming soon)
 
 first, install the packages with this command
 ```
-yay -S hyprland-bin kitty waybar swaync rofi-wayland waypaper ttf-iosevka-nerd brightnessctl pamixer \
+yay -S cava neofetch hyprland-bin kitty waybar swaync rofi-wayland waypaper ttf-iosevka-nerd brightnessctl pamixer \
 polkit-kde-agent noto-fonts-emoji python-pywal16 python-haishoku \
 starship hyprshot xdg-desktop-portal-hyprland-git hyprpicker \
 gvfs udiskie hyprlock ranger wl-paste wl-clip-persist \
 ```
 
+next, clone this repo and copy all the folders inside to `~/.config` and make the scripts inside the said folder excutable
+you also need to append these lines into `.bashrc` for starship to work:
+```
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
+eval "$(starship init bash)"
+```
+once done, run `Hyprland` (case-sensitive!) and you should be good to go!
 ## spicetify
 this scheme is designed to use with the "text" theme, which you can get from [here](https://github.com/spicetify/spicetify-themes)
 
@@ -20,7 +27,7 @@ paste the lines below into the `color.ini` file inside the theme folder and appl
 > [!NOTE]
 > you will need xrdb for loading the generated xresources file!
 > 
-> plus, if you do not like having to play the music manually because the client restarts, enable devtools using `spicetify apply enable-devtools` and use the update command (a manual reload of the client is required but the stream should not be interrupted)
+> plus, if you do not like having to play the music manually because the client restarts, enable devtools using `spicetify apply enable-devtools` and run the `spicetify refresh` command (a manual reload of the client is required but the stream should not be interrupted)
 ```
 [pywal]
 accent = ${xrdb:color5}
