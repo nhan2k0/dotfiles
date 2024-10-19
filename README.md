@@ -1,5 +1,5 @@
 # dotfiles
-my arch linux dotfiles using pywal for color scheme (coming soon?)
+my arch linux dotfiles (ft. pywal)
 
 ## how to install
 > [!NOTE]
