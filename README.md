@@ -14,11 +14,14 @@ gvfs udiskie hyprlock ranger wl-paste wl-clip-persist \
 ```
 
 next, clone this repo and copy all the folders inside to `~/.config` and make the scripts inside the said folder excutable
+
 you also need to append these lines into `.bashrc` for starship to work:
+
 ```
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init bash)"
 ```
+
 once done, run `Hyprland` (case-sensitive!) and you should be good to go!
 ## spicetify
 this scheme is designed to use with the "text" theme, which you can get from [here](https://github.com/spicetify/spicetify-themes)
