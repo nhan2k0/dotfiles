@@ -1,5 +1,5 @@
 # dotfiles
-my arch linux dotfiles (ft. pywal)
+my arch linux dotfiles (ft. hyprland & pywal)
 
 ## how to install
 > [!NOTE]
@@ -7,10 +7,10 @@ my arch linux dotfiles (ft. pywal)
 
 first, install the packages with this command
 ```
-yay -S cava neofetch hyprland-bin kitty waybar swaync rofi-wayland waypaper ttf-iosevka-nerd brightnessctl pamixer \
+yay -S cava neofetch hyprland kitty waybar swaync rofi-wayland waypaper ttf-iosevka-nerd brightnessctl pamixer \
 polkit-kde-agent noto-fonts-emoji python-pywal16 python-haishoku \
-starship hyprshot xdg-desktop-portal-hyprland-git hyprpicker \
-gvfs udiskie hyprlock ranger wl-paste wl-clip-persist \
+starship hyprshot xdg-desktop-portal-hyprland hyprpicker \
+gvfs udiskie hyprlock ranger wl-clipboard wl-clip-persist \
 ```
 
 next, clone this repo and copy all the folders inside to `~/.config` and make the scripts inside the said folder excutable
