@@ -7,7 +7,7 @@ my arch linux dotfiles (ft. hyprland & pywal)
 
 first, install the packages with this command
 ```
-yay -S cava neofetch hyprland kitty waybar swaync rofi-wayland waypaper ttf-iosevka-nerd brightnessctl pamixer \
+yay -S swaybg cava neofetch hyprland kitty waybar swaync rofi-wayland waypaper ttf-iosevka-nerd brightnessctl pamixer \
 polkit-kde-agent noto-fonts-emoji python-pywal16 python-haishoku \
 starship hyprshot xdg-desktop-portal-hyprland hyprpicker \
 gvfs udiskie hyprlock ranger wl-clipboard wl-clip-persist \
