@@ -13,7 +13,7 @@ starship hyprshot xdg-desktop-portal-hyprland hyprpicker \
 gvfs udiskie hyprlock ranger wl-clipboard wl-clip-persist \
 ```
 
-next, clone this repo and copy all the folders inside to `~/.config` and make the scripts inside the said folder excutable
+next, clone the repo, copy all the folders inside to `~/.config` and make the scripts inside the said folder excutable
 
 you also need to append these lines into `.bashrc` for starship to work:
 
