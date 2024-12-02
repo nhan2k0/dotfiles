@@ -88,7 +88,7 @@
     },
   
     "network": {
-        "format-wifi": "{icon}  {signalStrength}%",
+        "format-wifi": "{icon} ",
         "format-ethernet": " 󰌗 ",
         "format-icons": ["󰤟", "󰤢", "󰤥", "󰤨"],
         "tooltip-format": "WIFI: {essid}",
@@ -97,7 +97,8 @@
     },
 
     "bluetooth": {
-	    "format": " {status}",
+	    "format-on": " ",
+            "format-off": "󰂲 ",
 	    "format-disabled": "󰂲", // an empty format will hide the module
 	    "format-connected": " {num_connections}",
 	    "tooltip-format": "{device_alias}",
